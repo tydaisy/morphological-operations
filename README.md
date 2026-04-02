@@ -7,13 +7,13 @@ Image by <a href="https://pixabay.com/users/nginnhong-22953211/?utm_source=link-
 ## What is structural element?
 Structural element in image processing is also called kernel. It is essentially a small matrix of numbers used as a sliding window to scan the image. It scans the iamge and determines how a pixel should be updated based on its neighbors. The kernel is usually a small, square matrix with odd dimensions (e.g., $3 \times 3$, $5 \times 5$, or $7 \times 7$). This ensures there is a clear "center pixel" that acts as the anchor point. The dimensions of the kernel directly define the neighborhood of influence. The larger the kernel, the more neighbors are consulted to decide the fate of the center pixel.\
 Mathematically, an erosion and dilation kernel is a matrix of ones. For a standard $3 \times 3$ kernel, it looks like this:
-$$
+```math
 K = \begin{bmatrix} 
 1 & 1 & 1 \\ 
 1 & 1 & 1 \\ 
 1 & 1 & 1 
 \end{bmatrix}
-$$
+```
 
 ## What is morphological operations?
 Morphology is a broad set of image processing operations that process images based on shapes. Morphological operations apply a structuring element to an input image, creating an output image of the same size. In a morphological operation, the value of each pixel in the output image is based on a comparison of the corresponding pixel in the input image with its neighbor.
