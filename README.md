@@ -31,16 +31,18 @@ A \ominus B = \{ z \mid (B)_z \subseteq A \}
 The center pixel only survives if the kernel is "fully submerged" in white pixels. If any part of the kernel hangs over the edge into the black background, the center pixel is deleted (set to 0).
 
 **The Equation working with grayscale images:**\
-$$(f \ominus b)(x) = \inf_{y \in B} \{ f(x + y) - b(y) \}$$
+```math
+(f \ominus b)(x) = \inf_{y \in B} \{ f(x + y) - b(y) \}
+```
 Erosion is a Local Minimum. Essentially, it picks the darkest pixel in the neighborhood.
 
 ## What is dilation?
 Dilation adds pixels to the boundaries of objects in an image. It is an "expander".
 Dilation is mathematically defined as the Minkowski Addition of the image set and the kernel set.\
 **The Equation working with binary images:**\
-$$
+```math
 A \oplus B = \{ z \mid (\hat{B})_z \cap A \neq \emptyset \}
-$$
+```
 * $A$: The input image.
 * $B$: The structuring element (kernel).
 * $(\hat{B})_z$: This represents the reflection of the kernel $B$ about its origin, shifted to location $z$.
@@ -49,9 +51,9 @@ $$
 As the kernel moves across the image, if at least one pixel of the kernel overlaps with a foreground pixel of the image, the pixel at the current center position ($z$) is set to 1 (white). This causes the boundaries to grow.
 
 **The Equation working with grayscale images:**\
-$$
+```math
 (f \oplus b)(x) = \sup_{y \in B} \{ f(x - y) + b(y) \}
-$$
+```
 Dilation is a Local Maximum. Essentially, it picks the brightest pixel in the neighborhood.
 
 ## What is opening?
