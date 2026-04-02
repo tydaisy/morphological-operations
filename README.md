@@ -1,2 +1,2 @@
 # morphological-operations
-A guide to classic morphological operations like erosion and dilation, featuring visual examples for each technique.
+This repository provides an overview of classic morphological operations, including erosion and dilation. Each operation is accompanied by a corresponding example to demonstrate its effects.
