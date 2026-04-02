@@ -31,9 +31,7 @@ A \ominus B = \{ z \mid (B)_z \subseteq A \}
 The center pixel only survives if the kernel is "fully submerged" in white pixels. If any part of the kernel hangs over the edge into the black background, the center pixel is deleted (set to 0).
 
 **The Equation working with grayscale images:**\
-$$
-(f \ominus b)(x) = \inf_{y \in B} \{ f(x + y) - b(y) \}
-$$
+$$(f \ominus b)(x) = \inf_{y \in B} \{ f(x + y) - b(y) \}$$
 Erosion is a Local Minimum. Essentially, it picks the darkest pixel in the neighborhood.
 
 ## What is dilation?
