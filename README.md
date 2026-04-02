@@ -21,9 +21,9 @@ Morphology is a broad set of image processing operations that process images bas
 ## What is erosion?
 Erosion removes pixels on object boundaries. It is a "shrinker". \
 **The Equation working with binary images:**\
-$$
+```math
 A \ominus B = \{ z \mid (B)_z \subseteq A \}
-$$
+```
 * $z$: The pixel coordinate being evaluated.
 * $(B)_z$: The kernel $B$ shifted so its origin is at coordinate $z$.
 * $\subseteq A$: This is the "subset" symbol. It means the shifted kernel must be completely contained within the foreground pixels of image $A$.
