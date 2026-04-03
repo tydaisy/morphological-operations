@@ -116,11 +116,11 @@ Dilation is a Local Maximum. Essentially, it picks the brightest pixel in the ne
 <table>
   <tr>
     <td align="center"><b>Original Image</b><br><img src="data/demo1.png" width="200"></td>
-    <td align="center"><b>3x3 Erosion</b><br><img src="data/after_dilation/kernal_size3.png" width="200"></td>
+    <td align="center"><b>3x3 Dilation</b><br><img src="data/after_dilation/kernal_size3.png" width="200"></td>
   </tr>
   <tr>
-    <td align="center"><b>5x5 Erosion</b><br><img src="data/after_dilation/kernal_size5.png" width="200"></td>
-    <td align="center"><b>7x7 Erosion</b><br><img src="data/after_dilation/kernal_size7.png" width="200"></td>
+    <td align="center"><b>5x5 Dilation</b><br><img src="data/after_dilation/kernal_size5.png" width="200"></td>
+    <td align="center"><b>7x7 Dilation</b><br><img src="data/after_dilation/kernal_size7.png" width="200"></td>
   </tr>
 </table>
 </div>
