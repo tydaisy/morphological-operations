@@ -5,10 +5,11 @@ This repository provides an overview of classic morphological operations, includ
 Image by <a href="https://pixabay.com/users/nginnhong-22953211/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9215914">Aaron Ng</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9215914">Pixabay</a>
 
 ## What is structural element?
-<div align="justify">
-Structural element in image processing is also called kernel. It is essentially a small matrix of numbers used as a sliding window to scan the image. It scans the iamge and determines how a pixel should be updated based on its neighbors. The kernel is usually a small, square matrix with odd dimensions (e.g., $3 \times 3$, $5 \times 5$, or $7 \times 7$). This ensures there is a clear "center pixel" that acts as the anchor point. The dimensions of the kernel directly define the neighborhood of influence. The larger the kernel, the more neighbors are consulted to decide the fate of the center pixel.\
-</div>
+<div style="text-align: justify;">
+
+Structural element in image processing is also called a kernel. It is essentially a small matrix of numbers used as a sliding window to scan the image. It scans the image and determines how a pixel should be updated based on its neighbors. The kernel is usually a small, square matrix with odd dimensions (e.g., $3 \times 3$, $5 \times 5$, or $7 \times 7$). This ensures there is a clear "center pixel" that acts as the anchor point. The dimensions of the kernel directly define the neighborhood of influence. The larger the kernel, the more neighbors are consulted to decide the fate of the center pixel.\
 Mathematically, an erosion and dilation kernel is a matrix of ones. For a standard $3 \times 3$ kernel, it looks like this:
+
 ```math
 K = \begin{bmatrix} 
 1 & 1 & 1 \\ 
@@ -80,4 +81,5 @@ Morphological opening is useful for removing small objects and thin lines from a
 The closing operation dilates an image and then erodes the dilated image, using the same structuring element for both operations.
 Morphological closing is useful for filling small holes in an image while preserving the shape and size of large holes and objects in the image.
 
+</div>
 
