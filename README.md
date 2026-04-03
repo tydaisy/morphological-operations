@@ -1,7 +1,7 @@
 # morphological-operations
 This repository provides an overview of classic morphological operations, including erosion and dilation. Each operation is accompanied by a corresponding example to demonstrate its effects.
 
-![erosion.jpg](assets/images/erosion.jpg)
+![erosion.jpg](assets/images/geological_erosion.jpg)
 Image by <a href="https://pixabay.com/users/nginnhong-22953211/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9215914">Aaron Ng</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9215914">Pixabay</a>
 
 ## What is structural element?
