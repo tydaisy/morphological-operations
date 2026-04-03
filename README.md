@@ -36,6 +36,17 @@ The center pixel only survives if the kernel is "fully submerged" in white pixel
 ```
 Erosion is a Local Minimum. Essentially, it picks the darkest pixel in the neighborhood.
 
+<table>
+  <tr>
+    <td align="center"><b>Original Image</b><img src="data/demo1.png" width="200"></td>
+    <td align="center"><b>3x3 Erosion</b><img src="data/after_erosion/kernal_size3.png" width="200"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>5x5 Erosion</b><img src="data/after_erosion/kernal_size5.png" width="200"></td>
+    <td align="center"><b>7x7 Erosion</b><img src="data/after_erosion/kernal_size7.png" width="200"></td>
+  </tr>
+</table>
+
 ## What is dilation?
 Dilation adds pixels to the boundaries of objects in an image. It is an "expander".
 Dilation is mathematically defined as the Minkowski Addition of the image set and the kernel set.\
