@@ -81,10 +81,10 @@ Erosion is a Local Minimum. Essentially, it picks the darkest pixel in the neigh
 <div align="justify">
 
 Dilation adds pixels to the boundaries of objects in an image. It is an "expander".
-Dilation is mathematically defined as the Minkowski Addition of the image set and the kernel set.\
-**The Equation working with binary images:**
 
 </div>
+
+**The Equation working with binary images:**
 
 ```math
 A \oplus B = \{ z \mid (\hat{B})_z \cap A \neq \emptyset \}
