@@ -63,7 +63,7 @@ Erosion is a Local Minimum. Essentially, it picks the darkest pixel in the neigh
 
 </div>
 
-<center>
+<div style="display: flex; justify-content: center;">
 <table>
   <tr>
     <td align="center"><b>Original Image</b><br><img src="data/demo1.png" width="200"></td>
@@ -74,7 +74,7 @@ Erosion is a Local Minimum. Essentially, it picks the darkest pixel in the neigh
     <td align="center"><b>7x7 Erosion</b><br><img src="data/after_erosion/kernal_size7.png" width="200"></td>
   </tr>
 </table>
-</center>
+</div>
 
 ## What is dilation?
 <div align="justify">
