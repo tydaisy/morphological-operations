@@ -34,11 +34,11 @@ Morphology is a broad set of image processing operations that process images bas
 ## What is erosion?
 <div align="justify">
 
-Erosion removes pixels on object boundaries. It is a "shrinker". \
+Erosion removes pixels on object boundaries. It is a "shrinker".
 
 </div>
 
-**The Equation working with binary images:**\
+**The Equation working with binary images:**
 ```math
 A \ominus B = \{ z \mid (B)_z \subseteq A \}
 ```
@@ -52,7 +52,7 @@ The center pixel only survives if the kernel is "fully submerged" in white pixel
 
 </div>
 
-**The Equation working with grayscale images:**\
+**The Equation working with grayscale images:**
 ```math
 (f \ominus b)(x) = \inf_{y \in B} \{ f(x + y) - b(y) \}
 ```
@@ -81,7 +81,7 @@ Erosion is a Local Minimum. Essentially, it picks the darkest pixel in the neigh
 
 Dilation adds pixels to the boundaries of objects in an image. It is an "expander".
 Dilation is mathematically defined as the Minkowski Addition of the image set and the kernel set.\
-**The Equation working with binary images:**\
+**The Equation working with binary images:**
 
 </div>
 
@@ -99,7 +99,7 @@ As the kernel moves across the image, if at least one pixel of the kernel overla
 
 </div>
 
-**The Equation working with grayscale images:**\
+**The Equation working with grayscale images:**
 ```math
 (f \oplus b)(x) = \sup_{y \in B} \{ f(x - y) + b(y) \}
 ```
