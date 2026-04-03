@@ -63,7 +63,7 @@ Erosion is a Local Minimum. Essentially, it picks the darkest pixel in the neigh
 
 </div>
 
-<div style="display: flex; justify-content: center;">
+<div align="center">
 <table>
   <tr>
     <td align="center"><b>Original Image</b><br><img src="data/demo1.png" width="200"></td>
