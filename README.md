@@ -63,6 +63,7 @@ Erosion is a Local Minimum. Essentially, it picks the darkest pixel in the neigh
 
 </div>
 
+**Examples:**
 <div align="center">
 <table>
   <tr>
@@ -108,6 +109,20 @@ As the kernel moves across the image, if at least one pixel of the kernel overla
 
 Dilation is a Local Maximum. Essentially, it picks the brightest pixel in the neighborhood.
 
+</div>
+
+**Examples:**
+<div align="center">
+<table>
+  <tr>
+    <td align="center"><b>Original Image</b><br><img src="data/demo1.png" width="200"></td>
+    <td align="center"><b>3x3 Erosion</b><br><img src="data/after_dilation/kernal_size3.png" width="200"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>5x5 Erosion</b><br><img src="data/after_dilation/kernal_size5.png" width="200"></td>
+    <td align="center"><b>7x7 Erosion</b><br><img src="data/after_dilation/kernal_size7.png" width="200"></td>
+  </tr>
+</table>
 </div>
 
 ## What is opening?
